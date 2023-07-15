@@ -1,0 +1,24 @@
+/*
+CSS
+Author: Maria Serrano
+Date: 2023-7-8
+Filename: main.css
+*/
+/*HTML and Body Styles*/
+body {
+background-color: #ab8fcb;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;}
+h2{color: #a84ca5; text-align: center; letter-spacing: .1em; text-align: left; font-size: 2em; margin-bottom: 10px}
+nav>ul{line-height: 1.5em; list-style-type: none; overflow: hidden; background-color: #59a5b7;}
+nav>ul>li a {text-align: right; color: #fcfcfc; margin: 5px; display: flex;}
+nav>ul>li a:hover:not(.active) {background-color: rgba(253, 129, 119, 0.81);}
+.active {background-color: #e51eff;}
+<div#outer {display: grid; grid-template-columns: (50px, 1fr); grid-template-rows: 4fr 2fr repeat;}
+/*Grid Styles for Page Body*/  
+body {display: grid; grid-template-columns: 2fr 1fr;}
+body >*{outline: 2px white;}
+/* Grid Styles for Nested Grid*/
+section{display: grid; grid-template-columns: repeat(2, 1fr);}
+section>*{outline: 2px dashed white;}
+p>{color: #5a3759; text-align: left; letter-spacing: .1em; text-align: left; font-size: 2em; margin-bottom: 5px;}
+footer{background-color: rgba(195, 77, 181, 0.71); color: #d4d4d4; font-size: .75em; text-align: center; clear: left;}
